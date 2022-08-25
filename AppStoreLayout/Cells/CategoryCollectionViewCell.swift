@@ -36,6 +36,7 @@ class CategoryCollectionViewCell: UICollectionViewCell {
         let view = UIView()
         view.backgroundColor = .lightGray
         view.heightAnchor.constraint(equalToConstant: 1 / UIScreen.main.scale).isActive = true
+
         
         return view
     }()
@@ -57,6 +58,7 @@ class CategoryCollectionViewCell: UICollectionViewCell {
             lineView.leadingAnchor.constraint(equalTo: titleLabel.leadingAnchor),
             lineView.trailingAnchor.constraint(equalTo: trailingAnchor),
             lineView.bottomAnchor.constraint(equalTo: bottomAnchor),
+            
         ])
     }
     
